@@ -1,0 +1,26 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ http://www.mexicobillpaying.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mexicobillpaying.com
+RewriteRule ^(.*)$ http://www.mexicobillpaying.com/$1 [R=301,L]
+
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}.php -f
+	RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+RewriteEngine On
+
+RewriteBase /
+#RewriteBase /dadpaymybills/
+
+RewriteRule ^([A-Za-z0-9]+)$ servicio.php?id=$1 [L]
+RewriteRule ^art/([0-9]+)/(.*) blog-detalle.php?id=$1
+RewriteRule ^servicio/([0-9]+)/(.*) servicio.php?id=$1
+RewriteRule ^referido/(.*) index.php?referido=$1
+

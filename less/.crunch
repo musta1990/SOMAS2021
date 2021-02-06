@@ -1,0 +1,872 @@
+{
+	"files": {
+		"style-main.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"less-fundpro/mixins.less",
+				"style-main.less",
+				"less-fundpro/nav.less",
+				"less-bootstrap/mixins.less",
+				"less-fundpro/overlay.less",
+				"less-bootstrap/mixins/background-variant.less",
+				"less-fundpro/practice-area.less",
+				"less-bootstrap/mixins/buttons.less",
+				"less-fundpro/services.less",
+				"less-bootstrap/mixins/clearfix.less",
+				"less-fundpro/shop.less",
+				"less-bootstrap/mixins/gradients.less",
+				"less-fundpro/shortcodes.less",
+				"less-bootstrap/mixins/grid.less",
+				"less-fundpro/shortcodes/alerts.less",
+				"less-bootstrap/mixins/image.less",
+				"less-fundpro/shortcodes/blockquote.less",
+				"less-bootstrap/mixins/list-group.less",
+				"less-fundpro/shortcodes/buttons.less",
+				"less-bootstrap/mixins/nav-vertical-align.less",
+				"less-fundpro/shortcodes/clients.less",
+				"less-bootstrap/mixins/pagination.less",
+				"less-fundpro/shortcodes/countdown-timer.less",
+				"less-bootstrap/mixins/progress-bar.less",
+				"less-fundpro/shortcodes/countdown.less",
+				"less-bootstrap/mixins/reset-text.less",
+				"less-fundpro/shortcodes/dividers.less",
+				"less-bootstrap/mixins/responsive-visibility.less",
+				"less-fundpro/shortcodes/facebook-disqus-comments.less",
+				"less-bootstrap/mixins/tab-focus.less",
+				"less-fundpro/shortcodes/faqs.less",
+				"less-bootstrap/mixins/text-emphasis.less",
+				"less-fundpro/shortcodes/flex-slider.less",
+				"less-bootstrap/mixins/vendor-prefixes.less",
+				"less-fundpro/shortcodes/flip-box.less",
+				"less-fundpro/about.less",
+				"less-fundpro/shortcodes/funfacts.less",
+				"less-fundpro/box-hover-effect.less",
+				"less-fundpro/shortcodes/home-boxes.less",
+				"less-fundpro/causes.less",
+				"less-fundpro/shortcodes/icon-box.less",
+				"less-fundpro/contact.less",
+				"less-fundpro/shortcodes/infinitescroll.less",
+				"less-fundpro/extra.less",
+				"less-fundpro/shortcodes/instagram.less",
+				"less-fundpro/form.less",
+				"less-fundpro/shortcodes/lightbox.less",
+				"less-fundpro/header.less",
+				"less-fundpro/shortcodes/map.less",
+				"less-fundpro/inner-header-title.less",
+				"less-fundpro/shortcodes/pegination.less",
+				"less-fundpro/menu-full-page.less",
+				"less-fundpro/shortcodes/piechart.less",
+				"less-bootstrap/mixins/border-radius.less",
+				"less-fundpro/shortcodes/pricing.less",
+				"less-bootstrap/mixins/forms.less",
+				"less-fundpro/shortcodes/process-steps.less",
+				"less-bootstrap/mixins/hide-text.less",
+				"less-fundpro/shortcodes/progress-bar.less",
+				"less-bootstrap/mixins/nav-divider.less",
+				"less-fundpro/shortcodes/promo.less",
+				"less-bootstrap/mixins/panels.less",
+				"less-fundpro/shortcodes/section-title.less",
+				"less-bootstrap/mixins/resize.less",
+				"less-fundpro/shortcodes/separators.less",
+				"less-bootstrap/mixins/table-row.less",
+				"less-fundpro/shortcodes/styled-icons.less",
+				"less-bootstrap/variables.less",
+				"less-fundpro/shortcodes/tabs.less",
+				"less-fundpro/boxed-layout.less",
+				"less-fundpro/shortcodes/team.less",
+				"less-fundpro/event.less",
+				"less-fundpro/shortcodes/testimonials.less",
+				"less-fundpro/gallery-isotope.less",
+				"less-fundpro/shortcodes/toggles-accordions.less",
+				"less-fundpro/job.less",
+				"less-fundpro/shortcodes/vertical-timeline.less",
+				"less-bootstrap/mixins/center-block.less",
+				"less-fundpro/shortcodes/working-process.less",
+				"less-bootstrap/mixins/labels.less",
+				"less-fundpro/side-push-panel.less",
+				"less-bootstrap/mixins/reset-filter.less",
+				"less-fundpro/sliders.less",
+				"less-bootstrap/mixins/text-overflow.less",
+				"less-fundpro/table-of-content.less",
+				"less-fundpro/common.less",
+				"less-fundpro/topbar.less",
+				"less-fundpro/home.less",
+				"less-fundpro/typography.less",
+				"less-bootstrap/mixins/grid-framework.less",
+				"less-bootstrap/mixins/size.less",
+				"less-fundpro/widgets.less",
+				"less-fundpro/volunteer.less",
+				"less-fundpro/vertical-nav.less",
+				"less-fundpro/variables.less",
+				"less-fundpro/blog.less",
+				"less-bootstrap/mixins/opacity.less",
+				"less-bootstrap/mixins/alerts.less",
+				"less-fundpro/footer.less"
+			]
+		},
+		"style-main-dark.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-dark.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"style-main-dark.less",
+				"less-fundpro/variables.less"
+			]
+		},
+		"style-main-rtl-extra.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-rtl-extra.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"style-main-rtl-extra.less"
+			]
+		},
+		"less-theme-color/theme-skin-blue.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-blue.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-blue-gary.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-blue-gary.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-brown.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-brown.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-gray.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-gray.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-green.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-green.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-lemon.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-lemon.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-orange.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-orange.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-red.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-red.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-yellow.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-yellow.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-sky-blue.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-sky-blue.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-yellow-green.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-yellow-green.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-sportstrainer/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-sky-blue-light.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-sky-blue-light.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-rose.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-rose.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-fundpro/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"utility-classes.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/utility-classes.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"utility-classes.less",
+				"less-fundpro/variables.less"
+			]
+		}
+	}
+}

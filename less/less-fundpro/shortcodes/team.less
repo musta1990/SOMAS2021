@@ -1,0 +1,71 @@
+/*
+ * Shortcode: team.less
+ * -----------------------------------------------
+*/
+.team-member {
+	overflow: hidden;
+	padding-bottom: 35px;
+	position: relative;
+}
+.team-member .team-info {
+	bottom: -18px;
+	left: 0;
+	padding: 15px;
+	margin: 15px 30px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+	z-index: 1;
+}
+.team-member:hover .team-info {
+	background-color: rgba(3, 3, 3, 0.95);
+}
+.team-member .team-info .author {
+	margin-bottom: 0;
+}
+.team-member .team-info .styled-icons {
+	left: 0;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+	top: -20px;
+}
+.team-member:hover .team-info .styled-icons {
+	opacity: 1;
+	top: -80px;
+}
+.team-member .team-thumb {
+	position: relative;
+}
+.team-member .team-thumb .overlay {
+	background-color: rgba(255, 255, 255, 0.90);
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	padding: 30px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	top: -100%;
+}
+.team-member .team-thumb .overlay .content {
+	left: 0;
+	padding: 40px;
+	position: absolute;
+	right: 0;
+	top: 25%;
+}
+.team-member:hover .team-thumb .overlay {
+	opacity: 1;
+	top: 0;
+}
