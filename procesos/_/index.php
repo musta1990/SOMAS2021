@@ -663,7 +663,7 @@ $bloghtml .= $bloghtml;
 
 <?php include_once "header.php"; ?>
 
-<section class="hero-area text-center overly" style="background: url('<?php echo $urlBanner;?>'); background-size: cover; background-repeat: no-repeat;">
+<section class="hero-area text-center overly" style="background: url('<?php echo $urlBanner;?>'); background-size: contain; background-repeat: no-repeat;">
 	<!-- Container Start -->
 	<div class="container">
 		<div class="row">

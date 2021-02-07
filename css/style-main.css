@@ -4714,13 +4714,13 @@ blockquote p {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-repeat: repeat-y;
   background-position: top center;
 }
 .mobile-parallax {
-  background-size: cover;
+  background-size: contain;
   background-attachment: scroll;
   background-position: center center;
 }

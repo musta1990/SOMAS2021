@@ -6,7 +6,7 @@
               <!-- SLIDE 1 -->
               <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s11." data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s11.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s11.PNG"  alt="" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina >
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -115,7 +115,7 @@
               <!-- SLIDE 2 -->
               <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s22.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s22.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s22.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -219,7 +219,7 @@
               <!-- SLIDE 3 -->
               <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s33.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s33.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s33.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 <!--
                  LAYER NR. 1 
@@ -300,7 +300,7 @@
                 <!-- SLIDE 4 -->
               <li data-index="rs-4" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s44.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 4" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s44.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s44.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -406,7 +406,7 @@
                 <!-- SLIDE 5 -->
               <li data-index="rs-5" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s55.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 5" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s55.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s55.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -511,7 +511,7 @@
               <!-- SLIDE 6 -->
               <li data-index="rs-6" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s66.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 5" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s66.PNG"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/s66.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
