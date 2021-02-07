@@ -113,21 +113,16 @@ if(empty($_SESSION)){
       <div class="header-nav-wrapper navbar-scrolltofixed bg-silver-light">
         <div class="container-fluid">
           <nav id="menuzord-right" class="menuzord default no-bg">
-            <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html">
-            
-                <img src="img/logos_somas.png" alt="" style="height:40px;">
-                <img src="img/emblema.jpg" alt="">
-            </a>
             <ul class="menuzord-menu">
               <li class="active"><a href="#home">BIENBENIDA</a>
               <li class=""><a href="#servicios_home">INFORMACIÓN GENERAL</a>
               <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
-                    <ul class="dropdown">
-                      <li><a href="index-rtl-mp-layout1.html">A1 </a></li>
-                      <li><a href="index-rtl-mp-layout1.html">A2</a></li>
-                      <li><a href="index-rtl-mp-layout1.html">A3 </a></li>
-                    </ul>
-              </li>   
+                <ul class="dropdown">
+                  <li><a href="index-rtl-mp-layout1.html">A1 </a></li>
+                  <li><a href="index-rtl-mp-layout1.html">A2</a></li>
+                  <li><a href="index-rtl-mp-layout1.html">A3 </a></li>
+                </ul>
+              </li>
               <ul class="dropdown">
                 <li><a href="index-rtl-mp-layout1.html">XVI Simposio Internacional de Agricultura Sostenible</a></li>
                 <li><a href="index-rtl-mp-layout2.html">XI Congreso Nacional de Agricultura Sostenible</a></li>
@@ -137,13 +132,15 @@ if(empty($_SESSION)){
               </ul>
                   
               <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>
-            
-                <?php
-//var_dump($_SESSION["loggedin"]);
-if(!empty($_SESSION["loggedin"])){
-?> 
-                <li class=""><a href="#galeria_home">Galeria</a>   
-    <?php
+              
+              <?php
+                //var_dump($_SESSION["loggedin"]);
+                if(!empty($_SESSION["loggedin"])) {
+              ?>
+              
+              <li class=""><a href="#galeria_home">Galeria</a>
+              
+              <?php
 }
     ?>
               
@@ -167,12 +164,22 @@ if(!empty($_SESSION["loggedin"])){
                   <li><a href="#" data-toggle="modal" data-target="#exampleModal">INICIAR SECIÓN</a></li>    
                <?php } ?>
                <li class=""><a href="#">PROGRAMA DETALLADO</a>
+
+               
+
             </ul>
           </nav>
         </div>
       </div>
     </div>
-    
+    <div>
+    <div style="float: right;">
+      <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html">
+        <img src="img/logos_somas.png" alt="Logo de SOMAS" style="height:40px;">
+        <img src="img/emblema.jpg" alt="Emblema" style="">
+      </a>
+    </div>
+    </div>
     
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="color:#1a6b10">
   <div class="modal-dialog" role="document">
