@@ -87,7 +87,7 @@ if(empty($_SESSION)){
    <div class="header-top bg-theme-colored sm-text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="widget no-border m-0">
               <ul class="styled-icons icon-dark icon-circled icon-theme-colored icon-sm flip sm-pull-none sm-text-center mt-sm-15">
                 <li><a target="_blank" href="https://www.facebook.com/congresosomas2021/"><i class="fa fa-facebook text-white"></i></a></li>
@@ -100,18 +100,15 @@ if(empty($_SESSION)){
               <ul class="list-inline pull-right sm-pull-none sm-text-center mt-5">
                 <li class="m-0 pl-10 pr-10"> <a href="#" class="text-white">Congreso SOMAS 2021</a>
                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-white"></i> <a href="#" class="text-white">presidencia@somas.org.mx</a>
-                </li>
-                   <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-white"></i> <a href="#" class="text-white">somaspresidencia@gmail.com</a>
-                </li>
-                   <li class="m-0 pl-10 pr-10">   <i class="fa fa-phone text-white"></i> <a href="#" class="text-white">229 400 6123</a>
-                </li>
-                
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-white"></i> <a href="#" class="text-white">somaspresidencia@gmail.com</a>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a href="#" class="text-white">229 400 6123</a>
               </ul>
             </div><div class="clearfix"></div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-silver-light">
         <div class="container-fluid">
@@ -119,33 +116,28 @@ if(empty($_SESSION)){
             <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html">
             
                 <img src="img/logos_somas.png" alt="" style="height:40px;">
-                    <img src="img/emblema.jpg" alt="">
-              </a>
+                <img src="img/emblema.jpg" alt="">
+            </a>
             <ul class="menuzord-menu">
               <li class="active"><a href="#home">BIENBENIDA</a>
-                
-               <li class=""><a href="#servicios_home">INFORMACIÓN GENERAL</a>   
-              <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>
-              
-                    <ul class="dropdown">
-                      <li><a href="index-rtl-mp-layout1.html">XVI Simposio Internacional de Agricultura Sostenible</a></li>
-                      <li><a href="index-rtl-mp-layout2.html">XI Congreso Nacional de Agricultura Sostenible</a></li>
-                        <li><a href="index-rtl-mp-layout2.html">Eventos Paralelos</a></li>
-                        <li><a href="index-rtl-mp-layout2.html">Concursos </a></li>
-                        <li><a href="index-rtl-mp-layout2.html">Cursos Precongreso</a></li>
-                           
-                    </ul>
-                  
-              </li>
-            <li class=""><a href="#galeria_home">Instrucciones Para Ponentes y Expositores </a>   
-           
-              
+              <li class=""><a href="#servicios_home">INFORMACIÓN GENERAL</a>
+              <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
                     <ul class="dropdown">
                       <li><a href="index-rtl-mp-layout1.html">A1 </a></li>
                       <li><a href="index-rtl-mp-layout1.html">A2</a></li>
                       <li><a href="index-rtl-mp-layout1.html">A3 </a></li>
                     </ul>
-              </li>
+              </li>   
+              <ul class="dropdown">
+                <li><a href="index-rtl-mp-layout1.html">XVI Simposio Internacional de Agricultura Sostenible</a></li>
+                <li><a href="index-rtl-mp-layout2.html">XI Congreso Nacional de Agricultura Sostenible</a></li>
+                <li><a href="index-rtl-mp-layout2.html">Eventos Paralelos</a></li>
+                <li><a href="index-rtl-mp-layout2.html">Concursos </a></li>
+                <li><a href="index-rtl-mp-layout2.html">Cursos Precongreso</a></li>     
+              </ul>
+                  
+              <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>
+            
                 <?php
 //var_dump($_SESSION["loggedin"]);
 if(!empty($_SESSION["loggedin"])){
@@ -158,23 +150,23 @@ if(!empty($_SESSION["loggedin"])){
                     <ul class="dropdown">
                       <li><a href="index-rtl-mp-layout1.html">Concurso de Fotografía</a></li>
                       <li><a href="index-rtl-mp-layout1.html">Expor Virtual de experiencias exitosas</a></li>
-                            <li><a href="index-rtl-mp-layout1.html">Memoria Fotográfica </a></li>
-                           
+                      <li><a href="index-rtl-mp-layout1.html">Memoria Fotográfica </a></li>
                     </ul>
                   
               </li>
-                <li><a href="#ubicacion">Contáctanos</a></li>
+                <!--ELIMINADO-->
+                <!--<li><a href="#ubicacion">Contáctanos</a></li>-->
                  <?php
                 if(!empty($_SESSION["loggedin"])){
                 ?> 
                 <li><a href="perfil.php"> Mi perfil <span><i class="fa fa-user "></i></span></a></li>
-                     <li><a href="destruir_sesion.php" >Cerrar Sesión</a></li>
+                     <li><a href="destruir_sesion.php" >CERRAR SECIÓN</a></li>
                 <?php
                 }else{   ?>
               
-                  <li><a data-toggle="modal" data-target="#exampleModal">Iniciar Sesión</a></li>    
+                  <li><a href="#" data-toggle="modal" data-target="#exampleModal">INICIAR SECIÓN</a></li>    
                <?php } ?>
-         
+               <li class=""><a href="#">PROGRAMA DETALLADO</a>
             </ul>
           </nav>
         </div>

@@ -710,9 +710,8 @@
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-12">
-                  <a class="btn btn-success" href="#" style="font-size: 40px;" onclick="AbrirModalDatos(0)">INFORMACIÓN GENERAL</a><br>
+                <a class="btn btn-success" href="#" style="font-size: 40px;" onclick="AbrirModalDatos(0)">INFORMACIÓN GENERAL</a><br><br>
                 <a class="btn btn-success" href="#" style="font-size: 40px;" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a><br>
-            
             </div>
           </div>
         </div>
