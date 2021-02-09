@@ -1,4 +1,4 @@
-   <!-- Slider Revolution Start -->
+     <!-- Slider Revolution Start -->
         <div class="rev_slider_wrapper">
           <div class="rev_slider rev_slider_default" data-version="5.0">
             <ul>
@@ -709,11 +709,51 @@
       <div class="container">
         <div class="section-content text-center">
           <div class="row">
-            <div class="col-md-12">
-                <a class="btn btn-success" href="#" style="font-size: 40px;" onclick="AbrirModalDatos(0)">INFORMACIÓN GENERAL</a><br><br>
-                <a class="btn btn-success" href="#" style="font-size: 40px;" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a><br>
+          <div class="col-md-12">
+              <a id="myinfo" class="btn btn-success" href="informacion_general.php">INFORMACIÓN GENERAL</a><br><br>
+              <a id="myregister" class="btn btn-success" href="inscripciones_registro.php" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a>
             </div>
           </div>
         </div>
       </div>      
     </section>
+<!-- 
+  <div class="container">
+  <h2>Justified Button Groups</h2>
+  <p>To span the entire width of the screen, use the .btn-group-justified class:</p>
+  <div class="btn-group btn-group-justified"> 
+    <a href="#" class="btn btn-primary">INFORMACIÓN GENERAL</a> onclick="AbrirModalDatos(0)"
+    <a href="#" class="btn btn-primary">INSCRIPCIONES Y REGISTRO</a>
+  </div>
+</div>
+
+ORIGINAL
+<div class="col-md-12">
+              <a class="btn btn-success btn-block" href="#informacion_general" style="font-size:22px;">INFORMACIÓN GENERAL</a><br>
+              <a class="btn btn-success btn-block" href="#" style="font-size:23px;" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a>
+            </div>
+-->
+<style>
+  #myinfo {
+      font-size:22px;
+    }
+    #myregister {
+      font-size:23px;
+    }
+  @media screen and (max-width: 430px) {
+    #myinfo {
+      font-size:15px;
+    }
+    #myregister {
+      font-size:15px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    #myinfo {
+      font-size:12px;
+    }
+    #myregister {
+      font-size:12px;
+    }
+  }
+</style>

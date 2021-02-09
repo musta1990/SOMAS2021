@@ -114,8 +114,8 @@ if(empty($_SESSION)){
         <div class="container-fluid">
           <nav id="menuzord-right" class="menuzord default no-bg">
             <ul class="menuzord-menu">
-              <li class="active"><a href="#home">BIENBENIDA</a>
-              <li class=""><a href="#servicios_home">INFORMACIÓN GENERAL</a>
+              <li class="active"><a href="#home">BIENVENIDA</a>
+              <li class=""><a href="#informacion_general">INFORMACIÓN GENERAL</a> <!-- href="#servicios_home" CAMBIE -->
               <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
                 <ul class="dropdown">
                   <li><a href="index-rtl-mp-layout1.html">A1 </a></li>
@@ -157,11 +157,11 @@ if(empty($_SESSION)){
                 if(!empty($_SESSION["loggedin"])){
                 ?> 
                 <li><a href="perfil.php"> Mi perfil <span><i class="fa fa-user "></i></span></a></li>
-                     <li><a href="destruir_sesion.php" >CERRAR SECIÓN</a></li>
+                     <li><a href="destruir_sesion.php" >CERRAR SESIÓN</a></li>
                 <?php
                 }else{   ?>
               
-                  <li><a href="#" data-toggle="modal" data-target="#exampleModal">INICIAR SECIÓN</a></li>    
+                  <li><a href="#" data-toggle="modal" data-target="#exampleModal">INICIAR SESIÓN</a></li>    
                <?php } ?>
                <li class=""><a href="#">PROGRAMA DETALLADO</a>
 
