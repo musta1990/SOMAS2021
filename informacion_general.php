@@ -147,9 +147,9 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
           <div class="panel-body" style="background-color:#f2f2f2;">
             <p>Cursos Pre-Congreso**</p>
             <p>VI Curso Nacional de Agricultura Sostenible</p>
-            <p>Socios.</p>
-            <p>No socios.</p>
-            <p>Estudiantes.</p>
+            <p style="float:right;">Socios.<br> No socios.<br>Estudiantes.</p><br><br><br>
+            <p>Curso Nacional de Manejo Agroecológico de plagas</p>
+            <p style="float:right;">Socios.<br> No socios.<br>Estudiantes.</p><br><br><br>
           </div>
         </div>
         <div class="col-md-4">
@@ -158,40 +158,37 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
           </div>
           <div class="panel-body">
             <div class="row">
-              <div class="Blanco col-lg-6">
+              <div class="Blanco col-lg-6" style="border: 1px solid green;">
                 <p>Hasta el 30 de junio de 2021</p>
               </div>
-              <div class="Blanco col-lg-6">
+              <div class="Blanco col-lg-6" style="border: 1px solid green;">
                 <p>A partir del 1 de julio de 2021</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="Blanco col-lg-6">
-                <p style="font-weight:bold;text-align:center;">PROFESIONISTAS SOCIOS</p>
-                <p style="text-align:center;">Gratuita con membresía</p>
+              <div class="Blanco col-lg-6" style="border: 1px solid black;padding-right: 50px;">
+                <p style="text-align:center;">$ 900.00</p>
+                <p style="text-align:center;">$ 1100.00</p>
+                <p style="text-align:center;">$ 600.00</p>
               </div>
-              <div class="Blanco col-lg-6">
-                <p style="text-align:center;">$ 150.00</p>
-              </div>
-            </div><br>
-            <div class="row">
-              <div class="Blanco col-lg-6">
-                <p style="font-weight:bold;text-align:center;">PROFESIONISTAS NO SOCIOS</p>
-                <p style="text-align:center;">$ 650.00</p>
-              </div>
-              <div class="Blanco col-lg-6">
-                <p style="text-align:center;">$ 750.00</p>
+              <div class="Blanco col-lg-6" style="border: 1px solid black;padding-left: 50px;">
+                <p style="text-align:center;">$ 1100.00</p>
+                <p style="text-align:center;">$ 1300.00</p>
+                <p style="text-align:center;">$ 800.00</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="Amarillo col-lg-6">
-                <p style="font-weight:bold;text-align:center;">ESTUDIANTES*</p>
-                <p style="text-align:center;">$ 250.00</p>
+              <div class="Blanco col-lg-6" style="border: 1px solid black;">
+                <p style="text-align:center;">$ 900.00</p>
+                <p style="text-align:center;">$ 900.00</p>
+                <p style="text-align:center;">$ 900.00</p>
               </div>
-              <div class="Amarillo col-lg-6">
-                <p style="text-align:center;">$ 350.00</p>
+              <div class="Blanco col-lg-6" style="border: 1px solid black;">
+                <p style="text-align:center;">$ 900.00</p>
+                <p style="text-align:center;">$ 900.00</p>
+                <p style="text-align:center;">$ 900.00</p>
               </div>
-            </div>
+            </div><br>
           </div>
         </div>
         <div class="col-md-4">
