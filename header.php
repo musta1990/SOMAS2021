@@ -114,7 +114,7 @@ if(empty($_SESSION)){
         <div class="container-fluid">
           <nav id="menuzord-right" class="menuzord default no-bg">
             <ul class="menuzord-menu">
-              <li class="active"><a href="#home">BIENVENIDA</a>
+              <li class="active"><a href="index.php">BIENVENIDA</a>
               <li class=""><a href="#informacion_general">INFORMACIÓN GENERAL</a> <!-- href="#servicios_home" CAMBIE -->
               <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
                 <ul class="dropdown">
@@ -174,7 +174,7 @@ if(empty($_SESSION)){
     </div>
     <div>
     <div style="float: right;">
-      <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html">
+      <a class="menuzord-brand pull-left flip" href="#">
         <img src="img/logos_somas.png" alt="Logo de SOMAS" style="height:40px;">
         <img src="img/emblema.jpg" alt="Emblema" style="">
       </a>

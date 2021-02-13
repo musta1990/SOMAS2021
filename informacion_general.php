@@ -136,6 +136,87 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
 </div>
 </div>
 
+<!-- CUOTAS DE RECUPERACIÓN PAGINA 2-->
+<div class="panel panel-default">
+  <div class="panel-body" style="background-color:#003d99;">
+  <div class="row">
+        <div class="col-md-4">
+          <div class="panel-heading">
+            <h3 class="panel-title" style="font-variant:small-caps; font-size:19px; color:white; text-align:center;">Inscripción</h3>
+          </div>
+          <div class="panel-body" style="background-color:#f2f2f2;">
+            <p>Cursos Pre-Congreso**</p>
+            <p>VI Curso Nacional de Agricultura Sostenible</p>
+            <p>&nbsp;&nbsp;&nbsp;Socios.</p>
+            <p>No socios.</p>
+            <p>Estudiantes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel-heading">
+            <h3 class="panel-title" style="font-variant:small-caps; font-size:18px; color:white; text-align:center;">Cuotas de Recuperación</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="Blanco col-lg-6">
+                <p>Hasta el 30 de junio de 2021</p>
+              </div>
+              <div class="Blanco col-lg-6">
+                <p>A partir del 1 de julio de 2021</p>
+              </div>
+            </div><br>
+            <div class="row">
+              <div class="Blanco col-lg-6">
+                <p style="font-weight:bold;text-align:center;">PROFESIONISTAS SOCIOS</p>
+                <p style="text-align:center;">Gratuita con membresía</p>
+              </div>
+              <div class="Blanco col-lg-6">
+                <p style="text-align:center;">$ 150.00</p>
+              </div>
+            </div><br>
+            <div class="row">
+              <div class="Blanco col-lg-6">
+                <p style="font-weight:bold;text-align:center;">PROFESIONISTAS NO SOCIOS</p>
+                <p style="text-align:center;">$ 650.00</p>
+              </div>
+              <div class="Blanco col-lg-6">
+                <p style="text-align:center;">$ 750.00</p>
+              </div>
+            </div><br>
+            <div class="row">
+              <div class="Amarillo col-lg-6">
+                <p style="font-weight:bold;text-align:center;">ESTUDIANTES*</p>
+                <p style="text-align:center;">$ 250.00</p>
+              </div>
+              <div class="Amarillo col-lg-6">
+                <p style="text-align:center;">$ 350.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3 class="panel-title" style="font-variant:small-caps; font-size:19px; color:white; text-align:center;">Incluye</h3><br>
+            <ul class="list-group">
+              <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Memorias del Congreso y materiales del evento.</p></li>
+              <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Entrada con derecho de interacción con ponentes del Simposio Internacional, Congreso Nacional y los eventos paralelos.</p></li>
+              <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Derecho de envío de trabajos para presentar hasta dos ponencias como autor responsable en el Congreso.</p></li>
+              <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Constancia de asistencia, y en su caso como ponente.</p></li>
+              <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Entrada a la exposición del  I Concurso de Fotografía Digital en Agricultura Sostenible, y a la I Expo Virtual de Experiencias Exitosas de Agricultura Sostenible, así como a los eventos culturales.</p></li>
+            </ul>
+            <ul class="list-group">
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Memorias del congreso y materiales del evento.</p></li>
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Entrada a todos eventos incluidos los culturales.</p></li>
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Constancia de asistencia.</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="Amarillo panel-footer">
+      <p>*Para inscripciones grupales (de 20 o más estudiantes) dirigirse a tesorera@somas.org.mx para descuentos adicionales.</p>
+    </div>
+  </div>
+</div>
+</div>
+
 <?php
 include("footer.php");
 ?>
@@ -155,5 +236,9 @@ include("footer.php");
 
 .Blanco {
   background-color:#f2f2f2;
+}
+
+.espacio {
+
 }
 </style>
