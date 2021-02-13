@@ -115,7 +115,7 @@ if(empty($_SESSION)){
           <nav id="menuzord-right" class="menuzord default no-bg">
             <ul class="menuzord-menu">
               <li class="active"><a href="index.php">BIENVENIDA</a>
-              <li class=""><a href="#informacion_general">INFORMACIÓN GENERAL</a> <!-- href="#servicios_home" CAMBIE -->
+              <li class=""><a href="informacion_general.php">INFORMACIÓN GENERAL</a> <!-- href="#servicios_home" CAMBIE -->
               <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
                 <ul class="dropdown">
                   <li><a href="index-rtl-mp-layout1.html">A1 </a></li>
@@ -124,14 +124,15 @@ if(empty($_SESSION)){
                 </ul>
               </li>
               <ul class="dropdown">
-                <li><a href="index-rtl-mp-layout1.html">XVI Simposio Internacional de Agricultura Sostenible</a></li>
-                <li><a href="index-rtl-mp-layout2.html">XI Congreso Nacional de Agricultura Sostenible</a></li>
-                <li><a href="index-rtl-mp-layout2.html">Eventos Paralelos</a></li>
-                <li><a href="index-rtl-mp-layout2.html">Concursos </a></li>
-                <li><a href="index-rtl-mp-layout2.html">Cursos Precongreso</a></li>     
+                <li><a href="#">XVI Simposio Internacional de Agricultura Sostenible</a></li>
+                <li><a href="#">XI Congreso Nacional de Agricultura Sostenible</a></li>
+                <li><a href="#">Eventos Paralelos</a></li>
+                <li><a href="#">Concursos </a></li>
+                <li><a href="#">Cursos Precongreso</a></li>     
               </ul>
+             <li><a href="incripciones_registro.php" >INSCRIPCIONES Y REGISTRO</a></li>
                   
-              <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>
+            <!--  <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>-->
               
               <?php
                 //var_dump($_SESSION["loggedin"]);
@@ -163,10 +164,7 @@ if(empty($_SESSION)){
               
                   <li><a href="#" data-toggle="modal" data-target="#exampleModal">INICIAR SESIÓN</a></li>    
                <?php } ?>
-               <li class=""><a href="#">PROGRAMA DETALLADO</a>
-
-               
-
+               <li class=""><a href="programa_detallado.php">PROGRAMA DETALLADO</a>
             </ul>
           </nav>
         </div>

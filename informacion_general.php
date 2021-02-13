@@ -147,7 +147,7 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
           <div class="panel-body" style="background-color:#f2f2f2;">
             <p>Cursos Pre-Congreso**</p>
             <p>VI Curso Nacional de Agricultura Sostenible</p>
-            <p>&nbsp;&nbsp;&nbsp;Socios.</p>
+            <p>Socios.</p>
             <p>No socios.</p>
             <p>Estudiantes.</p>
           </div>
