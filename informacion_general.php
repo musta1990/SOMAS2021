@@ -77,37 +77,37 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
           </div>
           <div class="panel-body">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p>Hasta el 30 de junio de 2021</p>
               </div>
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p>A partir del 1 de julio de 2021</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p style="font-weight:bold;text-align:center;">PROFESIONISTAS SOCIOS</p>
                 <p style="text-align:center;">Gratuita con membresía</p>
               </div>
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p style="text-align:center;">$ 150.00</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p style="font-weight:bold;text-align:center;">PROFESIONISTAS NO SOCIOS</p>
                 <p style="text-align:center;">$ 650.00</p>
               </div>
-              <div class="col-lg-6">
+              <div class="Blanco col-lg-6">
                 <p style="text-align:center;">$ 750.00</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="Amarillo col-lg-6">
                 <p style="font-weight:bold;text-align:center;">ESTUDIANTES*</p>
                 <p style="text-align:center;">$ 250.00</p>
               </div>
-              <div class="col-lg-6">
+              <div class="Amarillo col-lg-6">
                 <p style="text-align:center;">$ 350.00</p>
               </div>
             </div>
@@ -122,9 +122,14 @@ XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
               <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Constancia de asistencia, y en su caso como ponente.</p></li>
               <li class="list2 list-group-item"><p style="font-size:15px;">&bull; Entrada a la exposición del  I Concurso de Fotografía Digital en Agricultura Sostenible, y a la I Expo Virtual de Experiencias Exitosas de Agricultura Sostenible, así como a los eventos culturales.</p></li>
             </ul>
+            <ul class="list-group">
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Memorias del congreso y materiales del evento.</p></li>
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Entrada a todos eventos incluidos los culturales.</p></li>
+              <li class="Amarillo list-group-item"><p style="font-size:15px;">&bull; Constancia de asistencia.</p></li>
+            </ul>
         </div>
     </div>
-    <div class="panel-footer" style="background-color:#f2f2f2;">
+    <div class="Amarillo panel-footer">
       <p>*Para inscripciones grupales (de 20 o más estudiantes) dirigirse a tesorera@somas.org.mx para descuentos adicionales.</p>
     </div>
   </div>
@@ -139,10 +144,16 @@ include("footer.php");
 .list-group-item {
   background-color:#ccffcc;
 }
+
 .list2 {
   background-color:#f2f2f2;
 }
-.col-lg-6 {
+
+.Amarillo {
+  background-color:#ffff99;
+}
+
+.Blanco {
   background-color:#f2f2f2;
 }
 </style>
