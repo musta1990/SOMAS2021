@@ -10,34 +10,33 @@ include("header.php");
   </div>
   <div class="panel-body">
   <div class="row">
-        <div class="col-md-3"><br><br>
+        <div class="col-md-3" style="margin-top: 56px;"><br><br>
           <div class="panel-body" style="background-color:#ccffcc;">
             <p style="font-weight:bold; font-size:15px;">Renovación de vigencia o nueva membresía de la SOMAS, A. C.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="panel-heading">
-            <h3 class="panel-title" style="font-variant:small-caps; font-size:19px; text-align:center;">Cuotas de Recuperación</h3>
+            <h3 class="panel-title" style="font-variant:small-caps; font-size:19px; text-align:center;border: 1px solid #3ec10f;">Cuotas de Recuperación</h3>
           </div>
           <div class="panel-body">
             <div class="row">
               <div class="col-xs-8 col-sm-6">
-                <p style="font-size:15px;">Hasta el 30 de junio de 2021</p>
+                <p style="font-size:15px; border: 1px solid #3ec10f;">Hasta el 30 de junio de 2021</p>
               </div>
               <div class="col-xs-4 col-sm-6">
-                <p style="font-size:15px;">A partir del 1 de julio de 2021</p>
+                <p style="font-size:15px; border: 1px solid #3ec10f;">A partir del 1 de julio de 2021</p>
               </div>
             </div>
           </div>
-          <div class="panel-footer" style="background-color:#ccffcc;">
+          
             <div class="row">
-              <div class="col-md-4">
-                <p style="font-size:15px;">$ 500.00</p>
-              </div>
-              <div class="col-md-4">
-                <p style="font-size:15px;">$ 500.00</p>
-              </div>
-            </div>
+           
+               <label style="background-color:#ccffcc;background-color:#ccffcc;margin-left: 20%;">$ 500.00</label>
+               <label style="background-color:#ccffcc;background-color:#ccffcc;margin-left: 25%;">$ 500.00</label>
+            
+             
+           
           </div>
         </div>
         <div class="col-md-5">
