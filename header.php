@@ -114,7 +114,7 @@ if(empty($_SESSION)){
         <div class="container-fluid">
           <nav id="menuzord-right" class="menuzord default no-bg">
             <ul class="menuzord-menu">
-              <li class="active"><a href="index.php">BIENVENIDA</a>
+              <li class=""><a href="index.php">BIENVENIDA</a>
               <li class=""><a href="informacion_general.php">INFORMACIÓN GENERAL</a> <!-- href="#servicios_home" CAMBIE -->
               <li class=""><a href="#galeria_home">INDICACIONES PARA PONENTES</a>
                 <ul class="dropdown">
