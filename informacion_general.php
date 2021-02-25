@@ -21,19 +21,19 @@ include("header.php");
           </div>
           <div class="panel-body">
             <div class="row">
-              <div class="col-xs-8 col-sm-6">
+              <div class="col-xs-6 col-sm-6">
                 <p style="border:1px solid #3ec10f; text-align:center;">Hasta el 30 de junio de 2021</p>
               </div>
-              <div class="col-xs-8 col-sm-6">
+              <div class="col-xs-6 col-sm-6">
                 <p style="border:1px solid #3ec10f; text-align:center;">A partir del 1 de julio de 2021</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-xs-8 col-sm-6">
+              <div class="col-xs-6 col-sm-6">
                 <p style="background-color:#ccffcc; border:1px solid #666666; margin-right:6%; margin-left:6%; padding-left:20%; padding-right:20%">$ 500.00</p>
               </div>
-              <div class="col-xs-8 col-sm-6">
-                <p style="background-color:#ccffcc; border:1px solid #666666; margin-right:6%; margin-left:6%; padding-left:20%; padding-right:20%">$ 500.00</p>
+              <div class="col-xs-6 col-sm-6">
+                <p style="background-color:#ccffcc; border:1px solid #666666; margin-right:6%; margin-left:6%; padding-left:20%; padding-right:20%">$ 600.00</p>
               </div>
             </div>
           </div>
@@ -56,11 +56,11 @@ include("header.php");
 <div class="panel panel-default">
   <div class="panel-body" style="background-color:#0047b3;">
     <div class="row">
-      <div class="col-md-4" style="margin-top:60px;">
+      <div class="col-md-4">
         <div class="panel-heading">
           <h3 class="panel-title" style="background-color:#f2f2f2; margin-left:25%; margin-right:25%;">INSCRIPCIÓN</h3>
         </div>
-        <div class="panel-body" style="background-color:#f2f2f2; border:1px solid #666666;">
+        <div id="inscripText" class="panel-body">
           <p>Al XVI Simposio Internacional de Agricultura Sostenible,XI Congreso Nacional de Agricultura Sostenible, y los eventos paralelos:</p>
           <p>&bull; XVII Simposio Nacional sobre Sustancias Vegetales y Minerales en el Combate de Plagas,</p>
           <p>&bull; IX Coloquio sobre Agroecosistemas y Sustentabilidad,</p>
@@ -74,34 +74,39 @@ include("header.php");
         </div>
         <div class="panel-body">
           <div class="row">
-            <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
+            <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
               <p style="background-color:#f2f2f2; border:1px solid #3ec10f; text-align:center;">Hasta el 30 de junio de 2021</p>
             </div>
-            <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
+            <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
               <p style="background-color:#f2f2f2;border:1px solid #3ec10f; text-align:center;">A partir del 1 de julio de 2021</p>
             </div>
           </div><br>
             <div class="row">
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
-                <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">PROFESIONISTAS SOCIOS<br>Gratuita con membresía</p>
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
+                <p class="textSocios" style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">
+                  PROFESIONISTAS SOCIOS<br>Gratuita con membresía renovada en<br>2020 o 2021.<br><br>$ 500.00<br>Con membresía anterior a 2020.
+                </p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
-                <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-top:25%;">$ 150.00</p>
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
+                <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-top:12%;">
+                  $ 150.00<br>Con membresía renovada en<br>2020 o 2021.<br><br><br>
+                  $ 650.00<br>Con membresía anterior a 2020.
+                </p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
-                <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">PROFESIONISTAS NO SOCIOS<br>$ 650.00 </p>
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
+                <p class="textSocios" style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">PROFESIONISTAS NO SOCIOS<br>$ 650.00 </p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3;">
                 <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center; margin-top:20%;">$ 750.00</p>
               </div>
             </div><br>
             <div class="row">
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
-                <p style="background-color:#ffff99; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">ESTUDIANTES*<br>$ 250.00</p>
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3; margin-top:60%;">
+                <p class="textSocios" style="background-color:#ffff99; border:1px solid #666666; text-align:center; margin-left:-5%; margin-right:-5%;">ESTUDIANTES*<br>$ 250.00</p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#0047b3;">
+              <div class="col-xs-6 col-sm-6" style="background-color:#0047b3; margin-top:60%;">
                 <p style="background-color:#ffff99; border:1px solid #666666; text-align:center; margin-top:10%;">$ 350.00</p>
               </div>
             </div>
@@ -152,26 +157,26 @@ include("header.php");
           </div>
           <div class="panel-body">
             <div class="row">
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2; border:1px solid #3ec10f; text-align:center;">Hasta el 30 de junio de 2021</p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2;border:1px solid #3ec10f; text-align:center;">A partir del 1 de julio de 2021</p>
               </div>
             </div><br>
             <div class="row" style="margin-top:5%;">
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center;">$ 900.00<br>$ 1100.00<br>$ 600.00</p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center;">$ 1100.00<br>$ 1300.00<br>$ 800.00</p>
               </div>
             </div><br>
             <div class="row" style="margin-top:15%;">
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center;">$ 900.00<br>$ 1100.00<br>$ 600.00</p>
               </div>
-              <div class="col-xs-8 col-sm-6" style="background-color:#3377ff">
+              <div class="col-xs-6 col-sm-6" style="background-color:#3377ff">
                 <p style="background-color:#f2f2f2; border:1px solid #666666; text-align:center;">$ 1100.00<br>$ 1300.00<br>$ 800.00</p>
               </div>
             </div><br>
@@ -196,13 +201,62 @@ include("header.php");
     </div>
   </div>
 </div>
+
+<div id="lastRow" class="row">
+  <div class="col-sm-8" style="background-color:#ff7733; margin-left:40%; border-radius:15px;">
+    <p style="text-align:center; color:#f2f2f2;">TODAS LAS ACTIVIDADES SE REALIZARÁN DE MODO VIRTUAL.</p>
+  </div>
+</div> 
+<!-- 
+<div id="lastPanel" class="panel panel-default" style="background-color:#ff7733; margin-left:50%; margin-right:20%;">
+  <div class="panel-body">
+    <p style="text-align:center; color:#f2f2f2;">TODAS LAS ACTIVIDADES SE REALIZARÁN DE MODO VIRTUAL.</p>
+  </div>
 </div>
+-->
 
 <?php
 include("footer.php");
 ?>
 
 <style>
+@media screen and (max-width: 418px) {
+  p.textSocios {
+    font-size:13px;
+    font-weight:bold;
+  }
+}
+
+#lastRow {
+  margin-left:40%;
+  margin-right:20%;
+}
+
+@media screen and (max-width: 620px){
+  #lastRow {
+    margin-left:0%;
+    margin-right:30%;
+  }
+}
+
+#inscripText {
+  background-color:#f2f2f2;
+  border:1px solid #666666;
+  padding-bottom:135%;
+}
+
+@media screen and (max-width: 1199px) {
+  #inscripText {
+    padding-bottom:165%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #inscripText {
+    padding-bottom:0%;
+  }
+}
+
 p {
   font-family:Arial, Helvetica, sans-serif;
   font-size:16px;
@@ -220,7 +274,7 @@ h1.panel-title {
   font-size:20px;
   font-weight:bold;
   text-align:center;
-  color:white;
+  color:#f2f2f2;
 }
 
 h3.panel-title {
@@ -241,13 +295,5 @@ h3.panel-title {
 
 .Amarillo {
   background-color:#ffff99;
-}
-
-.Blanco {
-  background-color:#f2f2f2;
-}
-
-.espacio {
-
 }
 </style>
