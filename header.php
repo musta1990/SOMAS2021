@@ -241,68 +241,71 @@ if(empty($_SESSION)){
             <input type="text" class="form-control" id="Nombre">
             <span id="NombreOK" style="color:red;"></span>
           </div>
-                <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Apellidos</label>
-            <input type="text" class="form-control" id="Apellidos">
-            <span id="ApellidosOK" style="color:red;"></span>
-          </div>
-        
-          <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Tipo de Inscripción</label>
-            <input type="text" class="form-control" id="Inscripcion">
-            <span id="CorreoOK" style="color:red;"></span>
-          </div>
-
-          <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">¿Se inscribe a cursos pre-congreso?</label>
-            <input type="text" class="form-control" id="CursosPreCongreso">
-            <span id="CorreoOK" style="color:red;"></span>
-          </div>
-
-        <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Correo</label>
-            <input type="text" class="form-control" id="Correo">
-            <span id="CorreoOK" style="color:red;"></span>
-          </div>
-                <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Teléfono</label>
-            <input type="text" class="form-control" id="Telefono">
-            <span id="TelefonoOK" style="color:red;"></span>
-        </div>
             
-              </div>
-                   <div class="col-md-6">
-                <div class="form-group">
+         <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Contraseña</label>
             <input type="password" class="form-control" id="contra1">
             <span id="contra1OK" style="color:red;"></span>
           </div>
               
+        
+              
+            <div class="form-group" id="tipoInscripcion">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Tipo de Inscripción</label>
+          <select class="form-control" id="socio">
+              <option value="0">ESTUDIANTE</option>
+              <option value="1">NO SOCIO</option>
+            <option value="2">SOCIO</option>
+          </select>
+           
+          </div>
+             
+
+        
+        <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Correo</label>
+            <input type="text" class="form-control" id="Correo">
+            <span id="CorreoOK" style="color:red;"></span>
+          </div>
+             
+            
+              </div>
+                   <div class="col-md-6">
+                           <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Apellidos</label>
+            <input type="text" class="form-control" id="Apellidos">
+            <span id="ApellidosOK" style="color:red;"></span>
+          </div>
+               
               <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Confirmar contraseña</label>
             <input type="password" class="form-control" id="contra2">
             <span id="contra2OK" style="color:red;"></span>
           </div>
-              
-                    <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Socio</label>
-          <select class="form-control" id="socio">
+                       
+       
+            <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">¿Se inscribe a cursos pre-congreso?</label>
+          <select class="form-control" id="cursosPrecongreso">
               <option value="0">NO</option>
               <option value="1">SI</option>
           </select>
            
           </div>
                        
-        <div class="form-group" style="display:none;" id="Divmembresia">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Número de Membresía </label>
+                        
+                 <div class="form-group" style="display:none;" id="Divmembresia">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Número de Membresía</label>
             <input type="text" class="form-control" id="membresia">
           <!--  <span id="TelefonoOK" style="color:red;"></span>-->
           </div>
-                       
-      
-                       
-                       
-    
+
+        <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Teléfono</label>
+            <input type="text" class="form-control" id="Telefono">
+            <span id="TelefonoOK" style="color:red;"></span>
+        </div>
+
            </div>
         <div  style="text-align: right;">
                 <button type="button" class="btn btn-danger btn-lg btn-flat btn-theme-colored pl-20 pr-20 " onclick="UpdateUsuario()" id="btn_update1"><label id="lbl-updateusuario"></label>Registarse</button>
@@ -584,7 +587,11 @@ if(empty($_SESSION)){
 </script>
 
 
-
+<style>
+    #tipoInscripcion{
+    margin-top: 50px;
+    }
+</style>
 
 
 
