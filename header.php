@@ -225,7 +225,7 @@ if(empty($_SESSION)){
     
         <div class="modal fade" id="ModalDatos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="color:#1a6b10"  >
   <div class="modal-dialog" role="document">
-    <div class="modal-content" style="padding-bottom: 120px;">
+    <div class="modal-content" style="padding-bottom: 220px;">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="exampleModalLabel"  style="color:#1a6b10;text-align:center;font-family:sans-serif";>Congreso SOMAS 2021</h4>
@@ -236,7 +236,7 @@ if(empty($_SESSION)){
           </div>
           <div>
           <div class="col-md-6">
-              <div class="form-group">
+            <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Nombre</label>
             <input type="text" class="form-control" id="Nombre">
             <span id="NombreOK" style="color:red;"></span>
@@ -246,7 +246,19 @@ if(empty($_SESSION)){
             <input type="text" class="form-control" id="Apellidos">
             <span id="ApellidosOK" style="color:red;"></span>
           </div>
-              
+        
+          <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">Tipo de Inscripción</label>
+            <input type="text" class="form-control" id="Inscripcion">
+            <span id="CorreoOK" style="color:red;"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="recipient-name" class="control-label" style="font-size: 20px;">¿Se inscribe a cursos pre-congreso?</label>
+            <input type="text" class="form-control" id="CursosPreCongreso">
+            <span id="CorreoOK" style="color:red;"></span>
+          </div>
+
         <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Correo</label>
             <input type="text" class="form-control" id="Correo">
