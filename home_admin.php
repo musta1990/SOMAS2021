@@ -169,7 +169,6 @@ $result=$conexion->query($sql);
         <th>Correo</th>
         <th>Tipo</th>
         <th>Socio</th>
-        <th>Membresia</th>  
         <th>Teléfono</th>
         <th>Comprobante de pago</th>
         <th>Editar</th>
@@ -206,17 +205,22 @@ $result=$conexion->query($sql);
                 <?php  
 					if(utf8_encode($row["socio"])=='0'){
 						
-						echo "NO";
+						echo "ESTUDIANTE";
 					} 
 					
 					if(utf8_encode($row["socio"])=='1'){
 						
-						echo "SI";
+						echo "NO SOCIO";
+					} 
+                    
+                    if(utf8_encode($row["socio"])=='2'){
+						
+						echo "SOCIO";
 					} 
 					
 					?>
                 </td>
-                         <td ><?php echo utf8_encode($row["membresia"]); ?></td>
+                 
                       <td ><?php echo utf8_encode($row["telefono"]); ?></td>
                      <td ><?php  
 					if(utf8_encode($row["comprobante_deposito"])=='0'){
@@ -339,17 +343,14 @@ $result=$conexion->query($sql);
                     <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Socio</label>
           <select class="form-control" id="socio">
-              <option value="0">NO</option>
-              <option value="1">SI</option>
+              <option value="0">ESTUDIANTE</option>
+              <option value="1">NO SOCIO</option>
+              <option value="2"> SOCIO</option>
           </select>
            
           </div>
                        
-        <div class="form-group" style="display:none;" id="Divmembresia">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">Número de Membresía </label>
-            <input type="text" class="form-control" id="membresia">
-          <!--  <span id="TelefonoOK" style="color:red;"></span>-->
-          </div>
+
                        
         <div class="form-group">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Teléfono</label>
@@ -511,7 +512,7 @@ $result=$conexion->query($sql);
                                         var contrasena = data.contrasena;
                                         var telefono=data.telefono;
                                         var comprobante= data.comprobante_deposito;
-                                        var membresia= data.membresia;
+                                      //  var membresia= data.membresia;
                                         
                                         $('#Nombre').val(nombre);
                                         $('#Apellidos').val(apellidos);
@@ -522,10 +523,10 @@ $result=$conexion->query($sql);
                                         $('#socio').val(socio);
                                         $('#Telefono').val(telefono);
                                         $('#comprobante_pago').val(comprobante);
-                                         $('#membresia').val(membresia);
-                                        if(membresia != ""){
+                                        // $('#membresia').val(membresia);
+                                        /*if(membresia != ""){
                                              $('#Divmembresia').css('display', 'block');
-                                           }
+                                           }*/
                                        
                                        
                                     }
@@ -585,10 +586,7 @@ $result=$conexion->query($sql);
             if(idUsuariohidden =='0' ){
                url="procesos/proceso_agregar_usuario.php";
                }else{
-                  url = "procesos/proceso_editar_usuario.php" 
-               
-                 
-                   
+                  url = "procesos/proceso_editar_usuario.php";
                }
        
             
@@ -663,7 +661,7 @@ $result=$conexion->query($sql);
                       var socio = $('#socio').val();
                       var telefono = $('#Telefono').val();
                       var comprobantepago = $('#comprobante_pago').val();
-                      var membresia = $('#membresia').val();
+                  
                       
 
                 data={
@@ -675,8 +673,8 @@ $result=$conexion->query($sql);
                     "socio":socio,
                     "contrasena":contrasena,
                     "telefono":telefono,
-                    "comprobantepago":comprobantepago,
-                    "membresia":membresia
+                    "comprobantepago":comprobantepago
+                 
                      }
             
                         $('#btnUpdate1').attr("disabled");
@@ -686,7 +684,7 @@ $result=$conexion->query($sql);
                                 dataType: "json",
                                 data: data,
                                 success: function (data) {
-                                
+                     
                                     if (data != undefined) {
                                         if (data.respuesta == "1") {
                                             window.location.href = 'home_admin.php';
@@ -705,7 +703,7 @@ $result=$conexion->query($sql);
                      }
            }
         }
-        
+/*        
         
       $("#socio").change(function(){
       var estado = $("#socio").val();
@@ -716,7 +714,7 @@ $result=$conexion->query($sql);
             }else{
             $('#Divmembresia').css('display', 'none');
             }
-    });
+    });*/
 </script>
 
      

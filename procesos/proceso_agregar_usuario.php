@@ -14,15 +14,16 @@ $tipo=$_POST['tipo'];
 $socio=$_POST['socio'];
 $telefono=$_POST['telefono'];
 $comprobantepago=$_POST['comprobantepago'];
-$membresia=$_POST['membresia'];
 
 
 
 
-$sql="INSERT INTO `usuarios` (`idusuario`, `nombre`, `apellidos`, `correo`, `contrasena`, `tipo`,`socio` ,`telefono`, `comprobante_deposito`,`membresia`) VALUES (NULL, '$nombre', '$apellidos', '$correo', '$contrasena', '$tipo',$socio,'$telefono', $comprobantepago,'$membresia');";
+$sql="INSERT INTO `usuarios` (`idusuario`, `nombre`, `apellidos`, `correo`, `contrasena`, `tipo`,`socio` ,`telefono`, `comprobante_deposito`) VALUES (NULL, '$nombre', '$apellidos', '$correo', '$contrasena', '$tipo',$socio,'$telefono', $comprobantepago);";
 
 
 $resultado=$conexion->query($sql);
+
+//echo $sql;
  
 function MandarCorreo(){
     
@@ -67,8 +68,6 @@ $mail->Body =
      <h3><a href="">Accede a la plataforma</a></h3>
          <img src="img/pie.PNG" style="width: 50%">
     </div>
-  
-    
 </body>
 </html>     
     ';

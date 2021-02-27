@@ -250,14 +250,14 @@ if(empty($_SESSION)){
               
         
               
-            <div class="form-group" id="tipoInscripcion">
+            <div class="form-group" >
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Tipo de Inscripción</label>
           <select class="form-control" id="socio">
               <option value="0">ESTUDIANTE</option>
               <option value="1">NO SOCIO</option>
             <option value="2">SOCIO</option>
           </select>
-           
+
           </div>
              
 
@@ -284,15 +284,7 @@ if(empty($_SESSION)){
           </div>
                        
        
-            <div class="form-group">
-            <label for="recipient-name" class="control-label" style="font-size: 20px;">¿Se inscribe a cursos pre-congreso?</label>
-          <select class="form-control" id="cursosPrecongreso">
-              <option value="0">NO</option>
-              <option value="1">SI</option>
-          </select>
-           
-          </div>
-                       
+                
                         
                  <div class="form-group" style="display:none;" id="Divmembresia">
             <label for="recipient-name" class="control-label" style="font-size: 20px;">Número de Membresía</label>
