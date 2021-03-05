@@ -58,15 +58,15 @@ $mail->Body =
     <head>
     </head>
 <body>
- <div style="text-align: center;">
-    <img src="img/encabezado.PNG" style="width: 50%">
-       <h1>Bienvenido (a) ' . $nombre . ' '. $apellidos .' </h1>
-     <h2>Tu registro a sido completado</h2>
-     <h4>Tus credenciales para acceder a la plataforma son las siguientes</h4>
-     <h5>Te sugerimos cambiarla por cuestiones desegurida en la sección de MI PERFIL</5>
-   usuario:' .$correo .'<br> password:' .$contrasena .'
-     <h3><a href="">Accede a la plataforma</a></h3>
-         <img src="img/pie.PNG" style="width: 50%">
+    <div style="text-align: center;">
+    <img src="http://www.somascongreso2021.com/img/encabezado.PNG" style="width: 45%">
+    <h1>Bienvenido(a) ' . $nombre . ' '. $apellidos .' </h1>
+    <h2>Tu registro ha sido completado</h2>
+    <h4>Tus credenciales para acceder a la plataforma son las siguientes</h4>
+    <h5>Te sugerimos cambiarla por cuestiones de seguridad en la sección de MI PERFIL</5>
+    <p style="font-size:15px;">usuario: ' .$correo .'<br>password: ' .$contrasena .'</p>
+    <h3><a href="">Accede a la plataforma</a></h3>
+    <img src="http://www.somascongreso2021.com/img/pie.PNG" style="width: 50%">
     </div>
 </body>
 </html>     

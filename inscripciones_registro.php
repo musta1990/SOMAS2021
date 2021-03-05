@@ -4,29 +4,46 @@ include("header.php");
 
 <div class="container-fluid">
     <div class="panel panel-default">
-        <div class="panel-heading" style="background-color:green;">
-            <h1 class="panel-title">PROCEDIMIENTO DE INSCRIPCIÓN</h1>
+        <div class="panel-heading">
+            <h1 class="panel-title">PROCEDIMIENTO DE INSCRIPCIÓN AL CONGRESO</h1>
         </div>
         <div class="panel-body">
-            <div id="orangePanel" class="row">
-                <p style="color:#f2f2f2;">1. Llenar el formato proporcionado en el botón de REGISTRO de esta sección.</p>
-                <p style="color:#f2f2f2;">2. Hacer los pagos de acuerdo con lo especificado en la información sobre cuotas de recuperación mediante depósitos o transferencias bancarias a nombre de:</p>
-            </div>
-            <div id="bluePanel" class="row">
-                <p style="color:#f2f2f2; text-align:center; font-size:20px;">Sociedad Mexicana de Agricultura Sostenible, A.C.<br>
-                BANCO: SANTANDER<br>
-                Número de cuenta: 65505714232<br>
-                Clabe Interbancaria: 014650655057142320</p>
-            </div>
-            <div id="greyPanel" class="row">
-                <p>3. Enviar al correo electrónico <a href="mailto:tesorera@somas.org.mx" style="color:#4d94ff;">tesorera@somas.org.mx</a> y <a href="mailto:somaspresidencia@gmail.com" style="color:#4d94ff;">somaspresidencia@gmail.com</a> sus datos, y el desglose de los conceptos cubiertos por el depósito, adjuntando la captura del comprobante de pago o ficha de depósito. En el caso de inscripción de estudiantes, deberá anexarse también copia de su credencial de estudiante vigente, o de algún documento que lo acredite como tal. Si requiere factura debe solicitarse en este momento y proporcionar los datos fiscales correspondientes.</p>
-                <p>4. Una vez que haya cubierto las cuotas correspondientes, recibirá vía correo electrónico, la confirmación de su inscripción, y su clave de usuario y palabra clave. Estos últimos serán necesarios para acceder a las distintas actividades del evento.</p>
-            </div>
-            <div class="section-content text-center">
-                <div class="row">
-                    <a id="myregister" class="btn btn-success" onclick="AbrirModalDatos(0)">REGISTRATE</a>
-                </div>
-            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p>1. Identificar el TIPO DE INSCRIPCIÓN y cuotas que le correspondan. 
+                    Si desea renovar su membresía o solicitar nuevo ingreso a la SOMAS, junto con su inscripción al Congreso, llenar la hoja correspondiente 
+                    (<a href="#">Renovación de membresía</a>) (<a href="#">Nuevos Socios</a>) y adjuntarla al correo que se solicita en el No. 4.  (Los formatos también se pueden obtener en la página 
+                    <a href="http://www.somas.org.mx/quieres-ser-socio/">http://www.somas.org.mx/quieres-ser-socio/</a>).</p>
+                </li>
+                <li class="list-group-item">
+                    <p>2. Para inscribirse y registrarse en el Congreso, ir a la página: <a href="http://www.somascongreso2021.com/inscripciones_registro.php">http://www.somascongreso2021.com/inscripciones_registro.php</a></p>
+                    <p>Presionar el botón <a id="myregister" class="btn btn-success" onclick="AbrirModalDatos(0)">REGISTRATE</a> y llenar el formulario proporcionado.</p>
+                </li>
+                <li class="list-group-item">
+                    <p>3. Realizar los pagos de acuerdo con lo especificado en la información sobre cuotas de recuperación mediante depósitos o transferencias bancarias a nombre de:</p>
+                    <div class="row">
+                        <div class="col-sm-6" style="margin-left: 10%;margin-top: 2%;">
+                            <p>Sociedad Mexicana de Agricultura Sostenible A.C.</p>
+                            <p>BANCO: SANTANDER</p>
+                            <p>Número de cuenta: 6550571423 (si estás haciendo transferencia desde una cuenta Santander deberás añadir un 2 al final)</p>
+                            <p>Clabe Interbancaria: 014650655057142320</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>4. Enviar al correo electrónico <a href="mailto:tesorera@somas.org.mx">tesorera@somas.org.mx</a> los siguientes datos:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><p>&bull; Nombre apellidos de quien se inscribe</p></li>
+                        <li class="list-group-item"><p>&bull; Tipo de inscripción por la que se está optando</p></li>
+                        <li class="list-group-item"><p>&bull; Folio del depósito o transferencia y desglose de los conceptos cubiertos por el mismo</p></li>
+                        <li class="list-group-item"><p>&bull; Adjuntar captura legible de la ficha o comprobante de depósito, y en el caso de estudiantes copia de su credencial vigente, o de algún documento oficial que lo acredite como tal</p></li>
+                        <li class="list-group-item"><p>&bull; Si requiere factura indicarlo y proporcionar los datos fiscales correspondientes</p></li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <p>5. Una vez realizado lo anterior, recibirá vía correo electrónico, la confirmación de su inscripción, y de su clave de usuario y palabra clave. Estos últimos serán necesarios para acceder a las distintas actividades del evento.</p>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
@@ -36,59 +53,21 @@ include("footer.php");
 ?>
 
 <style>
-
 h1.panel-title {
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:20px;
-  font-weight:bold;
-  text-align:center;
-  color:#f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
 }
-
 p {
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:16px;
-  font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
 }
-
-#orangePanel {
-    border-radius:15px;
-    border:1px solid #666666;
-    margin-bottom: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    background-color:#ff6600;
-    padding-left:2%;
-    padding-top:2%;
+a {
+    color:#4d94ff;
 }
-
-#bluePanel {
-    border-radius:15px;
-    border:1px solid #666666;
-    margin-bottom: 2%;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 2%;
-    background-color:#0088cc;
-    padding-left:2%;
-    padding-top:2%;
-}
-
-#greyPanel {
-    border-radius:15px;
-    border:1px solid #666666;
-    margin-bottom: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    background-color:#ffffcc;
-    padding-left:2%;
-    padding-top:2%;
-}
-
 #myregister {
-      font-size:23px;
+      font-size:20px;
     }
   @media screen and (max-width: 430px) {
     #myregister {

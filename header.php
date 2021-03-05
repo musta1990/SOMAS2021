@@ -130,7 +130,12 @@ if(empty($_SESSION)){
                 <li><a href="#">Concursos </a></li>
                 <li><a href="#">Cursos Precongreso</a></li>     
               </ul>
-             <li><a href="inscripciones_registro.php" >INSCRIPCIONES Y REGISTRO</a></li>
+             <li><a href="#">INSCRIPCIONES Y REGISTRO</a>
+                <ul class="dropdown">
+                  <li><a href="inscripciones_registro.php">PROCEDIMIENTO DE INSCRIPCIÓN AL CONGRESO</a></li>
+                  <li><a href="inscripcion_precongreso.php">INSCRIPCIÓN CURSOS PRECONGRESO</a></li>
+                </ul>
+            </li>
                   
             <!--  <li><a href="#" onclick="AbrirModalDatos(0)">INSCRIPCIONES Y REGISTRO</a></li>-->
               

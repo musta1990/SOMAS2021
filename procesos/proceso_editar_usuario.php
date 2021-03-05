@@ -1,5 +1,7 @@
 <?php
 require("../conexion.php");
+use PHPMailer\PHPMailer\PHPMailer;
+require '../vendor/autoload.php';
 
 $idUsuario=$_POST['idusuario'];
 $nombre=utf8_decode($_POST['Nombre']);
@@ -27,45 +29,41 @@ global $correo;
 global $contrasena;
 
 
-require '../PHPMailer/PHPMailerAutoload.php';
 
-//Create a new PHPMailer instance
-$mail = new PHPMailer();
-$mail->IsSMTP();
-
-//Configuracion servidor mail
-$mail->From = "somaspresidencia@gmail.com"; //remitente
-$mail->FromName = "CONGRESO SOMAS 2021"; //remitente
+$mail = new PHPMailer;
+$mail->isSMTP();
+//$mail->SMTPDebug = 2;
+$mail->Host = 'smtp.hostinger.com';
+$mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tls'; //seguridad
-$mail->Host = "smtp.gmail.com"; // servidor smtp
-$mail->Port = 587; //puerto
-$mail->Username ='somaspresidencia@gmail.com'; //nombre usuario
-$mail->Password = 'Somas2021*'; //contraseña
+$mail->Username = 'somasprecidencia@somascongreso2021.com';
+$mail->Password = 'Somas2021*';
+$mail->setFrom('somasprecidencia@somascongreso2021.com');
+$mail->FromName = "CONGRESO SOMAS 2021";
+//$mail->addReplyTo('alisabamustafa@gmail.com', 'Your Name');
 $mail->IsHTML(true);
-//Agregar destinatario
 $mail->AddAddress($correo);
 $mail->Subject = 'Registro completado';
-$mail->Body = 
-    '
+$mail->msgHTML(file_get_contents('message.html'), __DIR__);
+$mail->Body = '
 <html>
     <head>
     </head>
 <body>
- <div style="text-align: center;">
-    <img src="img/encabezado.PNG" style="width: 50%">
-       <h1>Bienvenido (a) ' . $nombre . ' '. $apellidos .' </h1>
-     <h2>Tu registro a sido completado</h2>
-     <h4>Tus credenciales para acceder a la plataforma son las siguientes</h4>
-   usuario:' .$correo .'<br> password:' .$contrasena .'
-     <h3><a href="">Accede a la plataforma</a></h3>
-         <img src="img/pie.PNG" style="width: 50%">
+    <div style="text-align: center;">
+    <img src="http://www.somascongreso2021.com/img/encabezado.PNG" style="width: 45%">
+    <h1>Bienvenido(a) ' . $nombre . ' '. $apellidos .' </h1>
+    <h2>Tu registro ha sido completado</h2>
+    <h4>Tus credenciales para acceder a la plataforma son las siguientes</h4>
+    <h5>Te sugerimos cambiarla por cuestiones de seguridad en la sección de MI PERFIL</5>
+    <p style="font-size:15px;">usuario: ' .$correo .'<br>password: ' .$contrasena .'</p>
+    <h3><a href="">Accede a la plataforma</a></h3>
+    <img src="http://www.somascongreso2021.com/img/pie.PNG" style="width: 50%">
     </div>
-  
-    
 </body>
 </html>     
     ';
+
 $mail->Send();
 }
 
