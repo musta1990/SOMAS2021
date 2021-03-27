@@ -4,7 +4,7 @@
             <ul>
 
               <!-- SLIDE 1 -->
-              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s11." data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
+              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s11.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="img/s11.PNG"  alt="" data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina >
                 <!-- LAYERS -->
@@ -108,12 +108,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion _SIMPOSIO.pdf">Ir a la sección</a> 
                 </div>
               </li>
 
               <!-- SLIDE 2 -->
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s22.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s22.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="img/s22.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
@@ -212,7 +212,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_congreso_nacional.pdf">Ir a la sección</a> 
                 </div>      
               </li>
 
@@ -293,7 +293,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_concursos_tesis_fotografia.pdf">Ir a la sección</a> 
                 </div>
 </li>
                 
@@ -398,7 +398,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_expo_virtual.pdf">Ir a la sección</a> 
                 </div>
 </li> 
                 
@@ -504,14 +504,14 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_cursos_precongreso.pdf">Ir a la sección</a> 
                 </div>
 </li> 
                 
               <!-- SLIDE 6 -->
-              <li data-index="rs-6" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/s66.PNG" data-rotate="0" data-saveperformance="off" data-title="Slide 5" data-description="">
+              <li data-index="rs-6" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/paralelos.png" data-rotate="0" data-saveperformance="off" data-title="Slide 6" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="img/s66.PNG"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="img/paralelos.png"  alt=""  data-bgposition="center center" data-bgfit="contain" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -585,7 +585,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="#">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_eventos_paralelos.pdf">Ir a la sección</a> 
                 </div>
 </li>     
             
@@ -705,7 +705,7 @@
 ">
 </div>
    <!-- divider: Emergency Services -->
-    <section class="divider parallax layer-overlay overlay-dark-9" data-stellar-background-ratio="0.2"  data-bg-img="img/campo2.jpg">
+    <section class="divider parallax layer-overlay overlay-dark-9" data-stellar-background-ratio="0.1"  data-bg-img="img/collage5.png" style="background-size:auto; background-repeat:no-repeat;">
       <div class="container">
         <div class="section-content text-center">
           <div class="row">

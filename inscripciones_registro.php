@@ -16,8 +16,7 @@ include("header.php");
                     <a href="http://www.somas.org.mx/quieres-ser-socio/">http://www.somas.org.mx/quieres-ser-socio/</a>).</p>
                 </li>
                 <li class="list-group-item">
-                    <p>2. Para inscribirse y registrarse en el Congreso, ir a la página: <a href="http://www.somascongreso2021.com/inscripciones_registro.php">http://www.somascongreso2021.com/inscripciones_registro.php</a></p>
-                    <p>Presionar el botón <a id="myregister" class="btn btn-success" onclick="AbrirModalDatos(0)">REGISTRATE</a> y llenar el formulario proporcionado.</p>
+                    <p>2. Presionar el botón <a id="myregister" class="btn btn-success" onclick="AbrirModalDatos(0)">REGISTRATE</a> y llenar el formulario proporcionado.</p>
                 </li>
                 <li class="list-group-item">
                     <p>3. Realizar los pagos de acuerdo con lo especificado en la información sobre cuotas de recuperación mediante depósitos o transferencias bancarias a nombre de:</p>

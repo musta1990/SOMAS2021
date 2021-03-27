@@ -316,7 +316,7 @@ $( document ).ready(function() {
                                          
                                         }
                                         else if(data.respuesta == "0"){
-                                      alert('Hubo un error intente nuevamente');
+                                      alert('Hubo un error, intente nuevamente');
                                         }
                                     }
                                 }

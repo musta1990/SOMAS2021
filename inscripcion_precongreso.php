@@ -32,15 +32,15 @@ include("header.php");
             </thead>
             <tbody>
             <tr>
-                <td>VI Curso Nacional de Agricultura Sostenible</td>
-                <td>Socio<br><br>No Socio<br><br>Estudiante</td>
+                <td id="bold_text">VI Curso Nacional de Agricultura Sostenible</td>
+                <td id="bold_text">Socio<br><br>No Socio<br><br>Estudiante</td>
                 <td>$ 900.00<br><br>$ 1100.00<br><br>$ 600.00</td>
                 <td>$ 1100.00<br><br>$ 1300.00<br><br>$ 800.00</td>
                 <td>• Entrada y participación en todas las sesiones del curso<br><br>• Memorias del curso, materiales de cortesía, materiales de prácticas.<br><br>• Constancia de asistencia al curso</td>
             </tr>
             <tr>
-                <td>V Curso Nacional de Manejo Agroecológico de plagas</td>
-                <td>Socio<br><br>No Socio<br><br>Estudiante</td>
+                <td id="bold_text">V Curso Nacional de Manejo Agroecológico de plagas</td>
+                <td id="bold_text">Socio<br><br>No Socio<br><br>Estudiante</td>
                 <td>$ 900.00<br><br>$ 1100.00<br><br>$ 600.00</td>
                 <td>$ 1100.00<br><br>$ 1300.00<br><br>$ 800.00</td>
                 <td>• Entrada y participación en todas las sesiones del curso<br><br>• Memorias del curso, materiales de cortesía, materiales de prácticas.<br><br>• Constancia de asistencia al curso</td>
@@ -72,5 +72,8 @@ th {
 }
 a {
     color:#4d94ff;
+}
+#bold_text {
+    font-weight:bold;
 }
 </style>
