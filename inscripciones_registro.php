@@ -30,7 +30,7 @@ include("header.php");
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <p>4. Enviar al correo electrónico <a href="mailto:tesorera@somas.org.mx">tesorera@somas.org.mx</a> los siguientes datos:</p>
+                    <p>4. Enviar al correo electrónico <a href="mailto:tesorera@somas.org.mx"> somaspresidencia@gmail.com</a> los siguientes datos:</p>
                     <ul class="list-group">
                         <li class="list-group-item"><p>&bull; Nombre apellidos de quien se inscribe</p></li>
                         <li class="list-group-item"><p>&bull; Tipo de inscripción por la que se está optando</p></li>
