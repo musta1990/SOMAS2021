@@ -108,7 +108,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion _SIMPOSIO.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="simposio.php">Ir a la sección</a> 
                 </div>
               </li>
 
@@ -212,7 +212,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_congreso_nacional.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="agricultura_sostenible.php">Ir a la sección</a> 
                 </div>      
               </li>
 
@@ -293,7 +293,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_concursos_tesis_fotografia.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="concurso_fotos.php">Ir a la sección</a> 
                 </div>
 </li>
                 
@@ -398,7 +398,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_expo_virtual.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="expo_virtual.php">Ir a la sección</a> 
                 </div>
 </li> 
                 
@@ -504,7 +504,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_cursos_precongreso.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="seccion_cursos_precongreso.php">Ir a la sección</a> 
                 </div>
 </li> 
                 
@@ -585,7 +585,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="http://www.somascongreso2021.com/pdfs/seccion_eventos_paralelos.pdf">Ir a la sección</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="eventos_paralelos.php">Ir a la sección</a> 
                 </div>
 </li>     
             
